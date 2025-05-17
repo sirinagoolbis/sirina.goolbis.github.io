@@ -20,4 +20,10 @@ The project fine tunes a BERT model for behavioral NLP classification. It utiliz
 ## Usage
 1. prepare dataset CSV ('candidates_dataset.csv') with columns: Summary, Skills, Discipline
 2. Run training script
-3. 
+
+## inference
+3. For futher preedictions on sample text, edit the 'test_samples' in the script or use the 'predict_from_file' function
+
+## Output
+- trained model is saved under './saved_model'
+- predictions stoed in 'predictions_ouput.csv' when completing prediction on CSV
