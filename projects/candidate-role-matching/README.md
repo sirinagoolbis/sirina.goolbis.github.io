@@ -16,7 +16,7 @@ Data is further divided by candidate information into columns that contain:
 
 ## Requirements
 
-requires Python 3.8+ with following packages:
+requires Python 3.8+ with following libraries:
 - pandas
 - torch
 - transformers
@@ -24,7 +24,7 @@ requires Python 3.8+ with following packages:
 - datasets
 - scikit-learn
 
-can be installed using:
+You can install them after running:
 
 '''bash
 pip install -r requirements.txt
