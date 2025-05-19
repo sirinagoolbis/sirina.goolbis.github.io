@@ -7,10 +7,10 @@ This project fine-tunes a BERT model to classify job applicants into disciplines
 - ‘scripts/train.py’: BERT fine-tuning code using HuggingFace Transformers
 ‘scripts/predict.py’: script for inferences on resumes
 ‘models/’: saved model checkpoints
-‘app.py’: (in progress) streamline interface for real-time classification
+‘app.py’: (in progress) streamlit interface for real-time classification
 
-## Data set overview
-- **Source**: AI-generated data set with varied disciplines, summaries, skills and majors
+## Dataset overview
+- **Source**: AI-generated dataset with varied disciplines, summaries, skills and majors
 - **Size**: 222 labeled resumes spanning multiple disciplines such as:
 - 'Healthcare'
 - 'Marketing'
@@ -20,37 +20,37 @@ This project fine-tunes a BERT model to classify job applicants into disciplines
 - and more
 
 Each resume included:
-- Summary:brief overview of applicant
+- Summary: brief overview of applicant
 - Skills: technical and soft skills
-- Discpline: target role or domain (additionally used as a label)
+- Discipline: target role or domain (additionally used as a label)
 
 ## Model Details
 - **Base Model**: 'bert-base-uncased'
-- **frameworks**: Pytorch, HuggingFace Transformers
+- **Frameworks**: Pytorch, HuggingFace Transformers
 - **Fine-tuning Strategy**:
     - 80/20 train-test split
-    - token classfication head used
+    - token classification head used
     - trained 4 epochs with early stopping
 - **evaluation**:
     - Accuracy: '87.4%'
     - F1-score (macro average): '0.86'
-    - confusion matric located in 'notebooks/evaluation.ipynb'
+    - confusion matrix located in 'notebooks/evaluation.ipynb'
  
 ## Web interface (in works)
 
 Integration with **Streamlit** to allow:
-- real-time discpline prediction and classification
+- real-time discipline prediction and classification
 - drag-and-drop resume uploads
 - visual confidence bars for each category
 
 ## How to run 
-'''bash
+"'''bash"
 git clone https://github.com/sirinagoolbis/sirinagoolbis.github.io
 cd projects/bert-np
 pip install -r requirements.txt
 
-# train model
+# Train model
 python scripts/train.py
 
-# predict
+# Predict
 python scripts/predict.py --input resume.pdf
