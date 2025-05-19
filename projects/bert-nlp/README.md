@@ -28,7 +28,7 @@ Each resume included:
 - **Base Model**: 'bert-base-uncased'
 - **frameworks**: Pytorch, HuggingFace Transformers
 - **Fine-tuning Strategy**:
-    - 80/20 train-tes split
+    - 80/20 train-test split
     - token classfication head used
     - trained 4 epochs with early stopping
 - **evaluation**:
