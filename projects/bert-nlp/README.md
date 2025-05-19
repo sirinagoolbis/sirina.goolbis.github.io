@@ -46,7 +46,7 @@ Integration with **Streamlit** to allow:
 ## How to run 
 "'''bash"
 git clone https://github.com/sirinagoolbis/sirinagoolbis.github.io
-cd projects/bert-np
+cd projects/bert-nlp
 pip install -r requirements.txt
 
 # Train model
