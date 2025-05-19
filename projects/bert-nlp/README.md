@@ -3,7 +3,7 @@
 ## Overview:
 This project fine-tunes a BERT model to classify job applicants into disciplines through natural language processing. It utilized structured and unstructured resume data (i.e. summary, skills, majors) and outputs predictions to better align positions with applicants.
 
-## Projext Structure
+## Project Structure
 - ‘scripts/train.py’: BERT fine-tuning code using HuggingFace Transformers
 ‘scripts/predict.py’: script for inferences on resumes
 ‘models/’: saved model checkpoints
