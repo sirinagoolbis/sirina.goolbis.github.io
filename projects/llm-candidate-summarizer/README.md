@@ -1,6 +1,6 @@
 # LLM Candidate Summarizer
 
-This project fine-tunes a large language model (LLM) to showcase engagement-focused summaries from student to student classroom conversations in a college lecture. It applies NLP to model expected educational behaviors, creating automated feedback, behavioral analysis, and AI-assisted lecture summarization.
+This project fine-tunes a RoBERTa model to showcase engagement-focused summaries from student to student classroom conversations in a college lecture. It applies NLP to model expected educational behaviors, creating automated feedback, behavioral analysis, and AI-assisted lecture summarization.
 
 Problem Statement: 
 Educators and ed-tech platforms post COVID pandemic are struggling to keep students engaged and attention spans/ class participation is dwindling. This project aims to measure student engagement across differe lecture modalities (in-person, asynchronous, etc.) futher providing a scalable measyre to identify engagement types (i.e. attentive, contributing, distracted) given raw dialogue transcripts using LLMs.
