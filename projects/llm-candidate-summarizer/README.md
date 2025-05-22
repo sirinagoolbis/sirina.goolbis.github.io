@@ -1,4 +1,4 @@
-# LLM Candidate Summarizer
+# LLM Powered Student Engagement Summarizer
 
 This project fine-tunes a RoBERTa model to showcase engagement-focused summaries from student to student classroom conversations in a college lecture. The model enables automatic tagging of social and cognitive behaviors, with applications for real-time feedback, learning analytics, and intelligent tutoring systems.
 
