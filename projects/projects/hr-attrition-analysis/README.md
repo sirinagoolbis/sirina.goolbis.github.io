@@ -31,7 +31,7 @@ This project analyzes employee attrition data to explain patterns and factors th
 
 This bar chart shows the imbalance in employee attrition — significantly more employees stayed than left.
 
-![Attrition Count](images/employee_attrition_count.png)
+![Attrition Count]([images/employee_attrition_count.png](https://github.com/sirinagoolbis/sirinagoolbis.github.io/blob/master/projects/projects/hr-attrition-analysis/images%3Aemployee_attrition_count.png))
 
 ## Tools and Technologies
 - Python
