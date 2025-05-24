@@ -1,36 +1,37 @@
 # HR Attrition Analysis
-Exploratory analysis tp uncover patterns driving employee attrition
 
-**Overview**
-This project analyzes HR data to explore key factors associated with employee attrition. Through structured data cleaning, visualization, and exploratory data analysis (EDA), it uncovers actionable insights to inform workforce retention strategies.
+## Overview
+This project analyzes employee attrition data to explain patterns and factors that lead to employee turnover. Understanding these factors will allow organizations to establish strategies to improve employee retention rates.
 
-It examines variables such as monthly income, overtime and job roles to understand their influence on attrition. Thus this project is useful to HR professionals, business leaders and analysts to further improve organizatoin health and reduce risk for turnover.
+## Table of Contents
+- [Dataset](#dataset)
+- [Methodology](#methodology)
+- [Key Findings](#key-findings)
+- [Tools and Technologies](#tools-and-technologies)
+- [Conclusion](#conclusion)
 
-**Project Structure**
-- 'HRdata.csv': raw dataset
-- 'HRdata_cleaned.csv': cleaned dataset after preprocessing
-- 'attrition_analysis.ipnb': main notebook for data cleaning + EDA
+## Dataset
+- **Source**: [IBM HR Analytics Employee Attrition & Performance dataset](https://www.ibm.com/analytics/hr-analytics-employee-attrition)
+- **Size**: 1,470 records, 35 features
+- **Features**: Age, Job Role, Monthly Income, Overtime, etc.
 
-**Key Questions explored**
-1. Which job roles showcased the highest rate of attrition?
-2. Is there a causal relationship between attrition and income levels?
-3. How does working overtime influence attrition?
-4. What does visual patterns explain about workforce risks?
+## Methodology
+1. **Data Cleaning**: Addressed missing values and ensured data types were appropriate.
+2. **Exploratory Data Analysis (EDA)**: Utilized visualizations to explore relationships between variables.
+3. **Modeling**: Applied classification algorithms to predict attrition likelihood.
 
-**Methods**
-- Language: Python
-- Data Manipulation: pandas
-- Data Visualization: seaborn, matplotlib
-- IDE/Environment: Jupyter Notebooks
-- Visualization Types: Count plots, Boxplots, Normalized Bar Charts
+## Key Findings
+- Employees working overtime are more likely to leave.
+- Certain job roles have higher attrition rates.
+- Lower monthly income correlates with higher attrition.
 
-**Outcomes**
-- Identified key job roles and income brackets with high attrition rates
-- Highlighted the strong correlation between overtime and attrition
-- Created interpretable visuals for non-technical audiences
-- Delivered actionable insights for improving HR policies
+## Tools and Technologies
+- Python
+- Pandas
+- Seaborn
+- Matplotlib
+- Jupyter Notebook
 
-**Lessons Learned**
-1. Importance fo data validations and type coercion for EDA
-2. Visualizations can explain nuanced workforce trends
-3. Practical wokrkflow for cleaning and analyzing real-world HR data
+## Conclusion
+The analysis provides insights into factors influencing employee attrition, enabling organizations to implement targeted retention strategies.
+
