@@ -1,1 +1,11 @@
-ee
+# Employee Attrition Analysis
+
+This project analyzes HR data to understand factors related to employee attrition.  
+Further including mechanisms like data cleaning, exploratory data analysis (EDA), and visualizations such as attrition counts, monthly income distributions, and attrition rates by job role.
+
+## How to run
+
+1. Clone the repo.  
+2. Place the dataset `HRdata.csv` in the project directory.  
+3. Install dependencies:
+
