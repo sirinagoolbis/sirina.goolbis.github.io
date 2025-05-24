@@ -13,17 +13,17 @@ This project analyzes employee attrition data to explain patterns and factors th
 ## Dataset
 - **Source**: [IBM HR Analytics Employee Attrition & Performance dataset](https://www.ibm.com/analytics/hr-analytics-employee-attrition)
 - **Size**: 1,470 records, 35 features
-- **Features**: Age, Job Role, Monthly Income, Overtime, etc.
+- **Features**: Job Role, Monthly Income, Age, Overtime, etc.
 
 ## Methodology
 1. **Data Cleaning**: Addressed missing values and ensured data types were appropriate.
-2. **Exploratory Data Analysis (EDA)**: Utilized visualizations to explore relationships between variables.
-3. **Modeling**: Applied classification algorithms to predict attrition likelihood.
-
+2. **Exploratory Data Analysis (EDA)**: Detailed visualizations to showcase relationships between variables.
+3. **Modeling**: Integrated classification algorithms to predict attrition.
+  
 ## Key Findings
-- Employees working overtime are more likely to leave.
-- Certain job roles have higher attrition rates.
-- Lower monthly income correlates with higher attrition.
+- Certain postions had higher attrition rates than others.
+- Employees working overtime had higher attrition rates.
+- Those with lower mothly income correlated to higher attrition.
 
 ## Tools and Technologies
 - Python
@@ -33,5 +33,4 @@ This project analyzes employee attrition data to explain patterns and factors th
 - Jupyter Notebook
 
 ## Conclusion
-The analysis provides insights into factors influencing employee attrition, enabling organizations to implement targeted retention strategies.
-
+This project explains factors that may influence employee attrition, further allow organizations to prepare targeted strategies to reduce retention rates.
