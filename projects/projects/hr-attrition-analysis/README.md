@@ -25,6 +25,14 @@ This project analyzes employee attrition data to explain patterns and factors th
 - Employees working overtime had higher attrition rates.
 - Those with lower mothly income correlated to higher attrition.
 
+### Visualizations
+
+#### Employee Attrition Count
+
+This bar chart shows the imbalance in employee attrition — significantly more employees stayed than left.
+
+![Attrition Count](images/employee_attrition_count.png)
+
 ## Tools and Technologies
 - Python
 - Pandas
