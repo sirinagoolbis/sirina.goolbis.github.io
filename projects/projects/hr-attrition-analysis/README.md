@@ -1,7 +1,7 @@
 # HR Attrition Analysis
 
 ## Overview
-This project analyzes the IBM HR Analytics Employee Attrition dataset to identify key patterns and risk factors that lead to employee turnover. The goal of this project is to explain actionable insights and streategies to improve employee retention based upon data-driven strategies.
+This project analyzes the IBM HR Analytics Employee Attrition dataset to identify key patterns and risk factors that lead to employee turnover. The goal of this project is to explain actionable insights and strategies to improve employee retention based upon data-driven strategies.
 
 ## Table of Contents
 - [Dataset](#dataset)
@@ -22,9 +22,9 @@ This project analyzes the IBM HR Analytics Employee Attrition dataset to identif
 4. **Evaluation**: Measured model performance using F1-score, accuracy, precision and recall.
   
 ## Key Findings
-- Certain postions like Sales Representatives and Laboratory Technician had higher attrition rates than other positions.
+- Certain positions like Sales Representatives and Laboratory Technician had higher attrition rates than other positions.
 - Employees working overtime had higher attrition rates.
-- Those with lower mothly income correlated to higher attrition.
+- Those with lower monthly income correlated to higher attrition.
 - Younger employees with fewer years at the company correlated to a higher attrition likelihood.
 
 ### Visualizations
