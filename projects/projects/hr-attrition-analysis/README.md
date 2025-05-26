@@ -1,7 +1,7 @@
 # HR Attrition Analysis
 
 ## Overview
-This project analyzes employee attrition data to explain patterns and factors that lead to employee turnover. Understanding these factors will allow organizations to establish strategies to improve employee retention rates.
+This project analyzes the IBM HR Analytics Employee Attrition dataset to identify key patterns and risk factors that lead to employee turnover. The goal of this project is to explain actionable insights and streategies to improve employee retention based upon data-driven strategies.
 
 ## Table of Contents
 - [Dataset](#dataset)
@@ -19,11 +19,13 @@ This project analyzes employee attrition data to explain patterns and factors th
 1. **Data Cleaning**: Addressed missing values and ensured data types were appropriate.
 2. **Exploratory Data Analysis (EDA)**: Detailed visualizations to showcase relationships between variables.
 3. **Modeling**: Integrated classification algorithms to predict attrition.
+4. **Evaluation**: Measured model performance using F1-score, accuracy, precision and recall.
   
 ## Key Findings
-- Certain postions had higher attrition rates than others.
+- Certain postions like Sales Representatives and Laboratory Technician had higher attrition rates than other positions.
 - Employees working overtime had higher attrition rates.
 - Those with lower mothly income correlated to higher attrition.
+- Younger employees with fewer years at the company correlated to a higher attrition likelihood.
 
 ### Visualizations
 
@@ -41,4 +43,9 @@ This bar chart shows the imbalance in employee attrition — significantly more 
 - Jupyter Notebook
 
 ## Conclusion
-This project explains factors that may influence employee attrition, further allow organizations to prepare targeted strategies to reduce retention rates.
+This project explains factors that correlate to a higher attrition rate for employees, which includes job role, overtime status, and income level. These findings aid HR teams in creating proactive retention strategies for such at-risk employee groups.
+
+## Future Improvements
+- Integrate SHAP/LIME for model explainability.
+- Implemented a dashboard for visualization of trends.
+- For better predictive power, test ensemble models (Random Forest, XGBoost).
