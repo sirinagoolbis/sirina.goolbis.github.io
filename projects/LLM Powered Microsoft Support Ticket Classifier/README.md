@@ -1,12 +1,17 @@
 # LLM Powered Microsoft Support Ticket Classifier
 
+## Project Overview
+
 This project builds a machine learning-powered system to classify and respond to Microsoft support tickets. It integreates NLP principles and OpenAI's GPT models to automatically categorize issues submitted by users and further develop an empathetic, context-aware support response.
 
-It is designed for:
-- Automated triaging of customer support tickets
-- Immediate, relevant assistance to users
-- Enhancing support team efficiency
-- Streamlining customer-support at large scale
+## Features
+
+- **Automated ticket classification:** Classifies inciming support tickets into categories trhough a machine learning model trained on ticket data.
+- **Response Generation:** Generates empathetic, situation specific response using OpenAI's GPT API.
+- **Text preprocessing pipeline:** Includes robust data cleaning and TF-IDF vectorization for feature extraction.
+- **Model persistence:** Continuous saving and loading of trained models and vectorizers for accuracy in deployment.
+- **Streamlit web app:** Interactive UI for ticket input, classificaiton and response generation.
+- **Error handling & environment management:** Secure API key management with '.env' and error handling for smooth usage.
 
 ## Problem Statement
 
@@ -16,8 +21,29 @@ Microsoft receives numerous support tickets across different products and servic
 - Help support staff prioritize problems and respond accordingly
 - Produce empathetic, personalized responses powered by OpenAI LLMs
 
-## Solution
+## Technologies & Tools
 
-- Preprocess and clean user ticket input
-- Train a Multinomial Naive Bayes classifier on labeled Microsoft support tickets
-- Vectorize ticket text with TF-IDF features
+- Python (pandas, scikit-learn, joblib)
+- OpenAI API (GPT-3 text-davinci-003)
+- Streamlit (for web interface)
+- Regex and text preprocessing techniques
+- Version control with GitHub
+
+### Prerequisites
+
+ - Python 3.8 or higher
+ - OpenAI API key ([OpenAI](https://platform.openai.com))
+ - Required Python pakcages (install with 'pip install -r requirements.txt')
+
+# Usage
+
+- Enter a support ticket descripting in the app
+- Classifer with predict the ticket classification.
+- System will generate appropriate, empathetic response based on ticket classification.
+
+# Future Improvements
+
+- Integrate real-time ticket iingestion from support platofrms (i.e. Zendesk, Microsoft Dyanmics)
+- Incorporate multi-language support for global ticket handling
+- 
+
